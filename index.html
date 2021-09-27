@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Progamers</title>
+    <link rel="shortcut icon" href="img/favicon.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +17,18 @@
     <link rel="stylesheet" href="css/main.css">
  
     <script src="https://kit.fontawesome.com/eb09883305.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="82">
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="83">
 
     <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3">
         <div class="container">
@@ -299,8 +310,8 @@
           <div class="underline"></div>
 
           <div class="container">
-            <div class="row text-center achivements-list" data-aos="zoom-in" data-aos-delay="100">
-              <div class="col-md-6 col-lg-4 col-xl-2 achivement">
+            <div class="row text-center achivements-list">
+              <div class="col-md-6 col-lg-4 col-xl-2 achivement" data-aos="zoom-in" data-aos-delay="100">
                 <i class="fas fa-thumbs-up"></i>
                 <p class="achivement-number">100%</p>
                 <p class="achivement-text">zadowolonych klientów</p>
@@ -320,7 +331,7 @@
                 <p class="achivement-number">7</p>
                 <p class="achivement-text">nowoczesnych biur</p>
               </div>
-              <div class="col-md-6 col-lg-4 col-xl-2 achivement" data-aos="zoom-in" data-aos-delay="100">
+              <div class="col-md-6 col-lg-4 col-xl-2 achivement" data-aos="zoom-in" data-aos-delay="200">
                 <i class="fas fa-dice"></i>
                 <p class="achivement-number">58</p>
                 <p class="achivement-text">stworzonych gier</p>
@@ -364,7 +375,7 @@
                 <p>00-000 King Street</p>
                 <p>London 78-121</p>
                 <p>+48 323 212 444</p>
-                <p>mail-london@gmail.com</p>
+                <p><a href="mailto:mail-london@gmail.com" class="mail-type">mail-london@gmail.com</a></p>
               </div>
             </div>
 
@@ -378,23 +389,7 @@
 
       </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({
-
-      startEvent: 'DOMContentLoaded',
-      offset: 200,
-      once: true
-
-    });
-  </script>
-
+  <script src="js/aos-animation.js"></script>
   <script src="js/slicksettings.js"></script>
   <script src="js/script.js"></script>
 

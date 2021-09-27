@@ -1,3 +1,8 @@
+.mail-type {
+  text-decoration: none;
+  color: inherit;
+}
+
 .bounce-top {
   display: block;
   -webkit-animation: bounce-top 2s infinite both;
